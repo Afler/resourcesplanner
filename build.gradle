@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+def optaplannerVersion = "8.26.0.Final"
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation platform("org.optaplanner:optaplanner-bom:${optaplannerVersion}")
+    implementation "org.optaplanner:optaplanner-core"
+
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_15
+    targetCompatibility = JavaVersion.VERSION_15
+}
