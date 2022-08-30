@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver xmlns="https://www.optaplanner.org/xsd/solver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
+    <!-- Define the model -->
+    <solutionClass>JobScheduleSolution</solutionClass>
+    <entityClass>model.Operation</entityClass>
+
+    <!-- Define the score function -->
+    <scoreDirectorFactory>
+        <constraintProviderClass>MyConstraintProvider</constraintProviderClass>
+    </scoreDirectorFactory>
+
+    <!-- Configure the optimization algorithms (optional) -->
+<!--    <termination>-->
+<!--        ...-->
+<!--    </termination>-->
+<!--    <constructionHeuristic>-->
+<!--        ...-->
+<!--    </constructionHeuristic>-->
+<!--    <localSearch>-->
+<!--        ...-->
+<!--    </localSearch>-->
+</solver>
