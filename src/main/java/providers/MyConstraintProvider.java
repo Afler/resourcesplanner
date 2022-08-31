@@ -1,3 +1,5 @@
+package providers;
+
 import model.Operation;
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 import org.optaplanner.core.api.score.stream.Constraint;

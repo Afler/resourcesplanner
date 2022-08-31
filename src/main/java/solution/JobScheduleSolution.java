@@ -1,3 +1,5 @@
+package solution;
+
 import model.Equipment;
 import model.Operation;
 import model.Worker;
@@ -8,7 +10,7 @@ import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
 import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
-import java.time.Period;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @PlanningSolution
@@ -23,14 +25,22 @@ public class JobScheduleSolution {
     @ProblemFactCollectionProperty
     private List<Equipment> equipment;
 
-    @ValueRangeProvider(id = "timeRange")
-    private Period timeRange;
+    private LocalDateTime startTime;
+    private LocalDateTime endTime;
 
     @PlanningEntityCollectionProperty
     private List<Operation> operations;
 
     @PlanningScore
     private HardSoftScore score;
+
+    public JobScheduleSolution(List<Worker> workers, List<Equipment> equipment, LocalDateTime startTime, LocalDateTime endTime, List<Operation> operations) {
+        this.workers = workers;
+        this.equipment = equipment;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.operations = operations;
+    }
 
     public List<Worker> getWorkers() {
         return workers;
@@ -48,12 +58,20 @@ public class JobScheduleSolution {
         this.equipment = equipment;
     }
 
-    public Period getTimeRange() {
-        return timeRange;
+    public LocalDateTime getStartTime() {
+        return startTime;
     }
 
-    public void setTimeRange(Period timeRange) {
-        this.timeRange = timeRange;
+    public void setStartTime(LocalDateTime startTime) {
+        this.startTime = startTime;
+    }
+
+    public LocalDateTime getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(LocalDateTime endTime) {
+        this.endTime = endTime;
     }
 
     public List<Operation> getOperations() {
@@ -71,4 +89,6 @@ public class JobScheduleSolution {
     public void setScore(HardSoftScore score) {
         this.score = score;
     }
+
+
 }

@@ -17,7 +17,8 @@ public class Operation {
     private int duration;
     private int profit;
 
-    @PlanningVariable(valueRangeProviderRefs = "timeRange")
+    // TODO specify valueRangeProviderRefs
+    @PlanningVariable
     private LocalDateTime startTime;
     @PlanningVariable(valueRangeProviderRefs = "workerRange")
     private Worker chosenWorker;
@@ -25,7 +26,7 @@ public class Operation {
     private Equipment chosenEquipment;
 
 
-    public Operation(){
+    public Operation() {
 
     }
 
@@ -79,5 +80,10 @@ public class Operation {
 
     public void setChosenEquipment(Equipment chosenEquipment) {
         this.chosenEquipment = chosenEquipment;
+    }
+
+    @Override
+    public String toString() {
+        return "Start time: " + startTime.toString();
     }
 }

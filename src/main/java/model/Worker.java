@@ -1,16 +1,24 @@
 package model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Worker extends Resource {
 
     private String profession;
 
-    private final List<Equipment> availableEquipment = new ArrayList<>();
+    private List<Equipment> availableEquipment;
 
     public List<Equipment> getAvailableEquipment() {
         return availableEquipment;
+    }
+
+    public Worker(String profession, List<Equipment> availableEquipment) {
+        this.profession = profession;
+        this.availableEquipment = availableEquipment;
+    }
+
+    public void setAvailableEquipment(List<Equipment> availableEquipment) {
+        this.availableEquipment = availableEquipment;
     }
 
     public String getProfession() {
@@ -20,4 +28,6 @@ public class Worker extends Resource {
     public void setProfession(String profession) {
         this.profession = profession;
     }
+
+
 }
