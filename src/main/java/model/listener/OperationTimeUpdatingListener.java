@@ -1,14 +1,20 @@
 package model.listener;
 
 import model.FollowingOperation;
+import model.Operation;
 import org.optaplanner.core.api.domain.variable.VariableListener;
 import org.optaplanner.core.api.score.director.ScoreDirector;
 import solution.JobScheduleSolution;
 
-public class OperationEndTimeUpdatingListener implements VariableListener<JobScheduleSolution, FollowingOperation> {
+public class OperationTimeUpdatingListener implements VariableListener<JobScheduleSolution, FollowingOperation> {
 
-    private void updateOperationEndTime(FollowingOperation anchorOperation) {
-        anchorOperation.setEndTime(anchorOperation.getStartTime().plusMinutes(anchorOperation.getDuration()));
+    private void updateOperationTime(FollowingOperation followingOperation) {
+
+        Operation previousOperation = followingOperation.getPreviousOperation();
+        if (previousOperation != null) {
+            followingOperation.setStartTime(previousOperation.getEndTime());
+            followingOperation.setEndTime(followingOperation.getStartTime().plusMinutes(followingOperation.getDuration()));
+        }
     }
 
     @Override
@@ -18,7 +24,7 @@ public class OperationEndTimeUpdatingListener implements VariableListener<JobSch
 
     @Override
     public void afterVariableChanged(ScoreDirector<JobScheduleSolution> scoreDirector, FollowingOperation followingOperation) {
-        updateOperationEndTime(followingOperation);
+        updateOperationTime(followingOperation);
     }
 
     @Override
@@ -28,7 +34,7 @@ public class OperationEndTimeUpdatingListener implements VariableListener<JobSch
 
     @Override
     public void afterEntityAdded(ScoreDirector<JobScheduleSolution> scoreDirector, FollowingOperation followingOperation) {
-        updateOperationEndTime(followingOperation);
+        updateOperationTime(followingOperation);
     }
 
     @Override

@@ -21,7 +21,7 @@ public class JobScheduleSolution {
     private List<Equipment> equipment;
 
     @ProblemFactProperty
-//    @ValueRangeProvider(id = "startTime")
+    @ValueRangeProvider(id = "startTime")
     private LocalDateTime startTime;
     @ProblemFactProperty
     @ValueRangeProvider(id = "endTime")

@@ -1,7 +1,6 @@
 package model;
 
-import model.listener.OperationEndTimeUpdatingListener;
-import model.listener.OperationStartTimeUpdatingListener;
+import model.listener.OperationTimeUpdatingListener;
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
@@ -26,11 +25,10 @@ public class FollowingOperation implements Operation {
             graphType = PlanningVariableGraphType.CHAINED)
     private Operation previousOperation;
 
-    @CustomShadowVariable(variableListenerClass = OperationStartTimeUpdatingListener.class,
+    @CustomShadowVariable(variableListenerClass = OperationTimeUpdatingListener.class,
             sources = {@PlanningVariableReference(variableName = "previousOperation")})
     private LocalDateTime startTime;
-    @CustomShadowVariable(variableListenerClass = OperationEndTimeUpdatingListener.class,
-            sources = {@PlanningVariableReference(variableName = "startTime")})
+    @CustomShadowVariable(variableListenerRef = @PlanningVariableReference(variableName = "startTime"))
     private LocalDateTime endTime;
     @PlanningVariable(valueRangeProviderRefs = "workerRange")
     private Worker chosenWorker;
