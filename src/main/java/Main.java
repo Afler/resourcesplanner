@@ -1,5 +1,6 @@
+import model.AnchorOperation;
 import model.Equipment;
-import model.Operation;
+import model.FollowingOperation;
 import model.Worker;
 import org.optaplanner.core.api.solver.Solver;
 import org.optaplanner.core.api.solver.SolverFactory;
@@ -21,7 +22,7 @@ public class Main {
 
         solver.solve(problem);
 
-        System.out.println(problem.getOperations());
+        System.out.println(problem.getFollowingOperations());
 
     }
 
@@ -37,17 +38,22 @@ public class Main {
         workers.add(new Worker("profession_3", new ArrayList<>(List.of(equipment.get(0), equipment.get(2)))));
 
         LocalDateTime startTime = LocalDate.of(2022, Month.SEPTEMBER, 1).atStartOfDay();
-        LocalDateTime endTime = LocalDate.of(2022, Month.SEPTEMBER, 30).atTime(23, 59);
+        LocalDateTime endTime = LocalDate.of(2022, Month.OCTOBER, 1).atStartOfDay();
 
-        List<Operation> operations = new ArrayList<>();
         long id = 0;
-        operations.add(new Operation(id++, "profession_1", equipment.get(0), 90, 5));
-        operations.add(new Operation(id++, "profession_2", equipment.get(1), 60, 6));
-        operations.add(new Operation(id++, "profession_3", equipment.get(2), 30, 2));
-        operations.add(new Operation(id++, "profession_1", equipment.get(0), 15, 1));
-        operations.add(new Operation(id++, "profession_2", equipment.get(1), 180, 10));
-        operations.add(new Operation(id++, "profession_3", equipment.get(2), 120, 7));
+        AnchorOperation anchorOperation = new AnchorOperation(id++, "profession_2", equipment.get(2), 10, 2);
+        anchorOperation.setStartTime(startTime);
+        anchorOperation.setEndTime(startTime.plusMinutes(anchorOperation.getDuration()));
 
-        return new JobScheduleSolution(workers, equipment, startTime, endTime, operations);
+        List<FollowingOperation> operations = new ArrayList<>();
+        operations.add(new FollowingOperation(id++, "profession_1", equipment.get(0), 90, 5));
+        operations.add(new FollowingOperation(id++, "profession_2", equipment.get(1), 60, 6));
+        operations.add(new FollowingOperation(id++, "profession_3", equipment.get(2), 30, 2));
+        operations.add(new FollowingOperation(id++, "profession_1", equipment.get(0), 15, 1));
+        operations.add(new FollowingOperation(id++, "profession_2", equipment.get(1), 180, 10));
+        operations.add(new FollowingOperation(id++, "profession_3", equipment.get(2), 120, 7));
+
+
+        return new JobScheduleSolution(workers, equipment, startTime, endTime, anchorOperation, operations);
     }
 }

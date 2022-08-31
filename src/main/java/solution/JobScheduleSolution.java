@@ -1,21 +1,16 @@
 package solution;
 
-import model.Equipment;
-import model.Operation;
-import model.Worker;
-import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import model.*;
+import org.optaplanner.core.api.domain.solution.*;
 import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
 import java.time.LocalDateTime;
+import java.util.Collections;
 import java.util.List;
 
 @PlanningSolution
 public class JobScheduleSolution {
-
 
     @ValueRangeProvider(id = "workerRange")
     @ProblemFactCollectionProperty
@@ -25,21 +20,33 @@ public class JobScheduleSolution {
     @ProblemFactCollectionProperty
     private List<Equipment> equipment;
 
+    @ProblemFactProperty
+//    @ValueRangeProvider(id = "startTime")
     private LocalDateTime startTime;
+    @ProblemFactProperty
+    @ValueRangeProvider(id = "endTime")
     private LocalDateTime endTime;
 
+    @ProblemFactProperty
+    private AnchorOperation anchorOperation;
+
     @PlanningEntityCollectionProperty
-    private List<Operation> operations;
+    @ValueRangeProvider(id = "followingOperationRange")
+    private List<FollowingOperation> followingOperations;
 
     @PlanningScore
     private HardSoftScore score;
 
-    public JobScheduleSolution(List<Worker> workers, List<Equipment> equipment, LocalDateTime startTime, LocalDateTime endTime, List<Operation> operations) {
+    public JobScheduleSolution() {
+    }
+
+    public JobScheduleSolution(List<Worker> workers, List<Equipment> equipment, LocalDateTime startTime, LocalDateTime endTime, AnchorOperation anchorOperation, List<FollowingOperation> operations) {
         this.workers = workers;
         this.equipment = equipment;
         this.startTime = startTime;
         this.endTime = endTime;
-        this.operations = operations;
+        this.anchorOperation = anchorOperation;
+        this.followingOperations = operations;
     }
 
     public List<Worker> getWorkers() {
@@ -74,12 +81,21 @@ public class JobScheduleSolution {
         this.endTime = endTime;
     }
 
-    public List<Operation> getOperations() {
-        return operations;
+    @ValueRangeProvider(id = "anchorOperationRange")
+    public List<AnchorOperation> getAnchorOperation() {
+        return Collections.singletonList(anchorOperation);
     }
 
-    public void setOperations(List<Operation> operations) {
-        this.operations = operations;
+    public void setAnchorOperation(AnchorOperation anchorOperation) {
+        this.anchorOperation = anchorOperation;
+    }
+
+    public List<FollowingOperation> getFollowingOperations() {
+        return followingOperations;
+    }
+
+    public void setFollowingOperations(List<FollowingOperation> followingOperations) {
+        this.followingOperations = followingOperations;
     }
 
     public HardSoftScore getScore() {
@@ -89,6 +105,4 @@ public class JobScheduleSolution {
     public void setScore(HardSoftScore score) {
         this.score = score;
     }
-
-
 }

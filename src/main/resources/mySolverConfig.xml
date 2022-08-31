@@ -3,11 +3,11 @@
         xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
     <!-- Define the model -->
     <solutionClass>solution.JobScheduleSolution</solutionClass>
-    <entityClass>model.Operation</entityClass>
+    <entityClass>model.FollowingOperation</entityClass>
 
     <!-- Define the score function -->
     <scoreDirectorFactory>
-        <constraintProviderClass>providers.MyConstraintProvider</constraintProviderClass>
+        <constraintProviderClass>provider.MyConstraintProvider</constraintProviderClass>
     </scoreDirectorFactory>
 
     <!-- Configure the optimization algorithms (optional) -->
