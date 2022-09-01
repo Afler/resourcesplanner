@@ -1,4 +1,4 @@
-package model.listener;
+package listener;
 
 import model.FollowingOperation;
 import model.Operation;
@@ -11,7 +11,8 @@ public class OperationTimeUpdatingListener implements VariableListener<JobSchedu
     private void updateOperationTime(FollowingOperation followingOperation) {
 
         Operation previousOperation = followingOperation.getPreviousOperation();
-        if (previousOperation != null) {
+        if (previousOperation != null && previousOperation.getStartTime() != null
+                && previousOperation.getEndTime() != null) {
             followingOperation.setStartTime(previousOperation.getEndTime());
             followingOperation.setEndTime(followingOperation.getStartTime().plusMinutes(followingOperation.getDuration()));
         }

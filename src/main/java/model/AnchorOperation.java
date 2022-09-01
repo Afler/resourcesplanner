@@ -1,26 +1,23 @@
 package model;
 
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-
 import java.time.LocalDateTime;
+
 
 public class AnchorOperation implements Operation {
 
-    @PlanningId
     private Long id;
-
     private String requiredProfession;
     private Equipment requiredEquipment;
     private int duration;
     private int profit;
-
     private LocalDateTime startTime;
     private LocalDateTime endTime;
-    @PlanningVariable(valueRangeProviderRefs = "workerRange")
-    private Worker chosenWorker;
-    @PlanningVariable(valueRangeProviderRefs = "equipmentRange")
-    private Equipment chosenEquipment;
+
+//    @PlanningVariable(valueRangeProviderRefs = "workerRange")
+//    private Worker chosenWorker;
+//
+//    @PlanningVariable(valueRangeProviderRefs = "equipmentRange")
+//    private Equipment chosenEquipment;
 
     public AnchorOperation() {
 
@@ -92,19 +89,19 @@ public class AnchorOperation implements Operation {
         this.endTime = endTime;
     }
 
-    public Worker getChosenWorker() {
-        return chosenWorker;
-    }
-
-    public void setChosenWorker(Worker chosenWorker) {
-        this.chosenWorker = chosenWorker;
-    }
-
-    public Equipment getChosenEquipment() {
-        return chosenEquipment;
-    }
-
-    public void setChosenEquipment(Equipment chosenEquipment) {
-        this.chosenEquipment = chosenEquipment;
-    }
+//    public Worker getChosenWorker() {
+//        return chosenWorker;
+//    }
+//
+//    public void setChosenWorker(Worker chosenWorker) {
+//        this.chosenWorker = chosenWorker;
+//    }
+//
+//    public Equipment getChosenEquipment() {
+//        return chosenEquipment;
+//    }
+//
+//    public void setChosenEquipment(Equipment chosenEquipment) {
+//        this.chosenEquipment = chosenEquipment;
+//    }
 }

@@ -52,7 +52,7 @@ public class Main {
         long id = 0;
         AnchorOperation anchorOperation = new AnchorOperation(id++, "profession_2", equipment.get(2), 10, 2);
         anchorOperation.setStartTime(startTime);
-        anchorOperation.setEndTime(startTime.plusMinutes(anchorOperation.getDuration()));
+        anchorOperation.setEndTime(startTime);
 
         List<FollowingOperation> operations = new ArrayList<>();
         operations.add(new FollowingOperation(id++, "profession_1", equipment.get(0), 240, 5));

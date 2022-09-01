@@ -1,6 +1,6 @@
 package model;
 
-import model.listener.OperationTimeUpdatingListener;
+import listener.OperationTimeUpdatingListener;
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
@@ -28,10 +28,13 @@ public class FollowingOperation implements Operation {
     @CustomShadowVariable(variableListenerClass = OperationTimeUpdatingListener.class,
             sources = {@PlanningVariableReference(variableName = "previousOperation")})
     private LocalDateTime startTime;
+
     @CustomShadowVariable(variableListenerRef = @PlanningVariableReference(variableName = "startTime"))
     private LocalDateTime endTime;
+
     @PlanningVariable(valueRangeProviderRefs = "workerRange")
     private Worker chosenWorker;
+
     @PlanningVariable(valueRangeProviderRefs = "equipmentRange")
     private Equipment chosenEquipment;
 
@@ -130,8 +133,10 @@ public class FollowingOperation implements Operation {
         this.chosenEquipment = chosenEquipment;
     }
 
-    @Override
-    public String toString() {
-        return "Start time: " + startTime.toString();
-    }
+//    @Override
+//    public String toString() {
+//        return "Start time: " + startTime.toString() +
+//                "\nChosen worker: " + chosenWorker +
+//                "\nChosen equipment: " + chosenEquipment;
+//    }
 }

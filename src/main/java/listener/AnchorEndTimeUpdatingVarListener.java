@@ -1,10 +1,11 @@
-package model.listener;
+package listener;
 
 import model.AnchorOperation;
 import org.optaplanner.core.api.domain.variable.VariableListener;
 import org.optaplanner.core.api.score.director.ScoreDirector;
 import solution.JobScheduleSolution;
 
+// FIXME Needed?
 public class AnchorEndTimeUpdatingVarListener implements VariableListener<JobScheduleSolution, AnchorOperation> {
 
     private void updateOperationEndTime(AnchorOperation anchorOperation) {
