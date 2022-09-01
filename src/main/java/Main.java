@@ -1,7 +1,4 @@
-import model.AnchorOperation;
-import model.Equipment;
-import model.FollowingOperation;
-import model.Worker;
+import model.*;
 import org.optaplanner.core.api.solver.Solver;
 import org.optaplanner.core.api.solver.SolverFactory;
 import org.optaplanner.core.config.solver.SolverConfig;
@@ -18,51 +15,66 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-//        SolverFactory<JobScheduleSolution> solutionSolverFactory = SolverFactory.createFromXmlResource("mySolverConfig.xml");
         SolverFactory<JobScheduleSolution> solutionSolverFactory = SolverFactory.create(new SolverConfig()
                 .withSolutionClass(JobScheduleSolution.class)
-                .withEntityClasses(FollowingOperation.class)
+                .withEntityClasses(Operation.class)
                 .withConstraintProviderClass(MyConstraintProvider.class)
                 .withTerminationSpentLimit(Duration.ofSeconds(30)));
         Solver<JobScheduleSolution> solver = solutionSolverFactory.buildSolver();
 
         JobScheduleSolution problem = uploadDemoData();
 
+        JobScheduleSolution solution = solver.solve(problem);
 
-        solver.solve(problem);
+        printAnswerData(solution);
 
-        System.out.println(problem.getFollowingOperations());
+    }
 
+    private static void printAnswerData(JobScheduleSolution solution) {
+        System.out.println("\nScore: " + solution.getScore());
+        for (Operation operation : solution.getOperations()) {
+            System.out.println("\nOperation №: " + operation.getId()
+                    + "\nWorker: " + operation.getChosenWorker().toString()
+                    + "\nStart/End time: " + operation.getChosenStartTime().toString() + "/" + operation.getEndTime()
+                    + "\nRequired/Worker profession: " + operation.getRequiredWorkerProfession().toString()
+                    + "/" + operation.getChosenWorker().getWorkerProfession().toString());
+        }
     }
 
     private static JobScheduleSolution uploadDemoData() {
         List<Equipment> equipment = new ArrayList<>();
-        equipment.add(new Equipment("model_1"));
-        equipment.add(new Equipment("model_2"));
-        equipment.add(new Equipment("model_3"));
+        equipment.add(new Equipment(EquipmentModel.MODEL_1));
+        equipment.add(new Equipment(EquipmentModel.MODEL_2));
+        equipment.add(new Equipment(EquipmentModel.MODEL_3));
 
         List<Worker> workers = new ArrayList<>();
-        workers.add(new Worker("profession_1", new ArrayList<>(List.of(equipment.get(0)))));
-        workers.add(new Worker("profession_2", new ArrayList<>(List.of(equipment.get(1)))));
-        workers.add(new Worker("profession_3", new ArrayList<>(List.of(equipment.get(0), equipment.get(2)))));
+        workers.add(new Worker(WorkerProfession.FIRST, new ArrayList<>(List.of(equipment.get(0)))));
+        workers.add(new Worker(WorkerProfession.SECOND, new ArrayList<>(List.of(equipment.get(1)))));
+        workers.add(new Worker(WorkerProfession.THIRD, new ArrayList<>(List.of(equipment.get(2)))));
 
         LocalDateTime startTime = LocalDate.of(2022, Month.SEPTEMBER, 1).atStartOfDay();
-        LocalDateTime endTime = LocalDate.of(2022, Month.SEPTEMBER, 2).atStartOfDay();
+        LocalDateTime endTime = LocalDate.of(2022, Month.SEPTEMBER, 3).atStartOfDay();
+        List<LocalDateTime> possibleStartTimeRange = getPossibleStartTimeRange(startTime, endTime);
 
         long id = 0;
-        AnchorOperation anchorOperation = new AnchorOperation(id++, "profession_2", equipment.get(2), 10, 2);
-        anchorOperation.setStartTime(startTime);
-        anchorOperation.setEndTime(startTime);
+        List<Operation> operations = new ArrayList<>();
+        operations.add(new Operation(id++, WorkerProfession.FIRST, equipment.get(0).getEquipmentModel(), 1, 10, endTime));
+        operations.add(new Operation(id++, WorkerProfession.SECOND, equipment.get(1).getEquipmentModel(), 2, 20, endTime));
+        operations.add(new Operation(id++, WorkerProfession.THIRD, equipment.get(2).getEquipmentModel(), 3, 30, endTime));
+        operations.add(new Operation(id++, WorkerProfession.FIRST, equipment.get(1).getEquipmentModel(), 4, 40, endTime));
+        operations.add(new Operation(id++, WorkerProfession.THIRD, equipment.get(2).getEquipmentModel(), 5, 50, endTime));
+        operations.add(new Operation(id++, WorkerProfession.THIRD, equipment.get(0).getEquipmentModel(), 6, 60, endTime));
 
-        List<FollowingOperation> operations = new ArrayList<>();
-        operations.add(new FollowingOperation(id++, "profession_1", equipment.get(0), 240, 5));
-        operations.add(new FollowingOperation(id++, "profession_2", equipment.get(1), 120, 6));
-        operations.add(new FollowingOperation(id++, "profession_3", equipment.get(2), 480, 2));
-        operations.add(new FollowingOperation(id++, "profession_1", equipment.get(0), 720, 15));
-        operations.add(new FollowingOperation(id++, "profession_2", equipment.get(1), 180, 10));
-        operations.add(new FollowingOperation(id++, "profession_3", equipment.get(2), 120, 7));
+        return new JobScheduleSolution(startTime, endTime, possibleStartTimeRange, workers, equipment, operations);
+    }
 
+    private static List<LocalDateTime> getPossibleStartTimeRange(LocalDateTime startTime, LocalDateTime endTime) {
+        Duration duration = Duration.between(startTime, endTime);
+        List<LocalDateTime> possibleStartTimeRange = new ArrayList<>();
 
-        return new JobScheduleSolution(workers, equipment, startTime, endTime, anchorOperation, operations);
+        for (int i = 0; i < duration.toHours(); i++) {
+            possibleStartTimeRange.add(startTime.plusHours(i));
+        }
+        return possibleStartTimeRange;
     }
 }

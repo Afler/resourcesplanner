@@ -1,19 +1,27 @@
 package solution;
 
-import model.AnchorOperation;
 import model.Equipment;
-import model.FollowingOperation;
+import model.Operation;
 import model.Worker;
 import org.optaplanner.core.api.domain.solution.*;
 import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
 import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
 
 import java.time.LocalDateTime;
-import java.util.Collections;
 import java.util.List;
 
 @PlanningSolution
 public class JobScheduleSolution {
+
+    @ProblemFactProperty
+    private LocalDateTime startTime;
+
+    @ProblemFactProperty
+    private LocalDateTime endTime;
+
+    @ProblemFactProperty
+    @ValueRangeProvider(id = "startTimeRange")
+    private List<LocalDateTime> possibleStartTimeRange;
 
     @ProblemFactCollectionProperty
     @ValueRangeProvider(id = "workerRange")
@@ -23,18 +31,9 @@ public class JobScheduleSolution {
     @ValueRangeProvider(id = "equipmentRange")
     private List<Equipment> equipment;
 
-    @ProblemFactProperty
-    private LocalDateTime startTime;
-
-    @ProblemFactProperty
-    private LocalDateTime endTime;
-
-    @ProblemFactProperty
-    private AnchorOperation anchorOperation;
-
     @PlanningEntityCollectionProperty
-    @ValueRangeProvider(id = "followingOperationRange")
-    private List<FollowingOperation> followingOperations;
+    @ValueRangeProvider(id = "operationRange")
+    private List<Operation> operations;
 
     @PlanningScore
     private HardMediumSoftScore score;
@@ -42,13 +41,13 @@ public class JobScheduleSolution {
     public JobScheduleSolution() {
     }
 
-    public JobScheduleSolution(List<Worker> workers, List<Equipment> equipment, LocalDateTime startTime, LocalDateTime endTime, AnchorOperation anchorOperation, List<FollowingOperation> operations) {
-        this.workers = workers;
-        this.equipment = equipment;
+    public JobScheduleSolution(LocalDateTime startTime, LocalDateTime endTime, List<LocalDateTime> possibleStartTimeRange, List<Worker> workers, List<Equipment> equipment, List<Operation> operations) {
         this.startTime = startTime;
         this.endTime = endTime;
-        this.anchorOperation = anchorOperation;
-        this.followingOperations = operations;
+        this.possibleStartTimeRange = possibleStartTimeRange;
+        this.workers = workers;
+        this.equipment = equipment;
+        this.operations = operations;
     }
 
     public List<Worker> getWorkers() {
@@ -67,6 +66,22 @@ public class JobScheduleSolution {
         this.equipment = equipment;
     }
 
+    public List<Operation> getOperations() {
+        return operations;
+    }
+
+    public void setOperations(List<Operation> operations) {
+        this.operations = operations;
+    }
+
+    public HardMediumSoftScore getScore() {
+        return score;
+    }
+
+    public void setScore(HardMediumSoftScore score) {
+        this.score = score;
+    }
+
     public LocalDateTime getStartTime() {
         return startTime;
     }
@@ -83,28 +98,11 @@ public class JobScheduleSolution {
         this.endTime = endTime;
     }
 
-    @ValueRangeProvider(id = "anchorOperationRange")
-    public List<AnchorOperation> getAnchorOperation() {
-        return Collections.singletonList(anchorOperation);
+    public List<LocalDateTime> getPossibleStartTimeRange() {
+        return possibleStartTimeRange;
     }
 
-    public void setAnchorOperation(AnchorOperation anchorOperation) {
-        this.anchorOperation = anchorOperation;
-    }
-
-    public List<FollowingOperation> getFollowingOperations() {
-        return followingOperations;
-    }
-
-    public void setFollowingOperations(List<FollowingOperation> followingOperations) {
-        this.followingOperations = followingOperations;
-    }
-
-    public HardMediumSoftScore getScore() {
-        return score;
-    }
-
-    public void setScore(HardMediumSoftScore score) {
-        this.score = score;
+    public void setPossibleStartTimeRange(List<LocalDateTime> possibleStartTimeRange) {
+        this.possibleStartTimeRange = possibleStartTimeRange;
     }
 }
