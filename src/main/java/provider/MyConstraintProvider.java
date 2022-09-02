@@ -24,8 +24,16 @@ public class MyConstraintProvider implements ConstraintProvider {
                 equipmentMismatch(constraintFactory),
                 professionMismatch(constraintFactory),
                 timeConflict(constraintFactory),
+                notEveryWorkerAssigned(constraintFactory),
                 maxProfit(constraintFactory)
         };
+    }
+
+    private Constraint notEveryWorkerAssigned(ConstraintFactory constraintFactory) {
+        return constraintFactory
+                .forEachIncludingNullVars(Operation.class)
+                .filter(operation -> operation.getChosenWorker() == null)
+                .penalize("Worker not assigned", HardMediumSoftScore.ONE_MEDIUM);
     }
 
     private Constraint maxProfit(ConstraintFactory constraintFactory) {

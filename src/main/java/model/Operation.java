@@ -21,7 +21,7 @@ public class Operation {
     @PlanningId
     private long id;
 
-    @PlanningVariable(valueRangeProviderRefs = "workerRange")
+    @PlanningVariable(valueRangeProviderRefs = "workerRange", nullable = true)
     private Worker chosenWorker;
 
     @PlanningVariable(valueRangeProviderRefs = "startTimeRange")

@@ -4,15 +4,16 @@ import java.util.List;
 
 public class Worker extends Resource {
 
+    private String name;
     private WorkerProfession workerProfession;
-
     private List<Equipment> availableEquipment;
 
     public List<Equipment> getAvailableEquipment() {
         return availableEquipment;
     }
 
-    public Worker(WorkerProfession workerProfession, List<Equipment> availableEquipment) {
+    public Worker(String name, WorkerProfession workerProfession, List<Equipment> availableEquipment) {
+        this.name = name;
         this.workerProfession = workerProfession;
         this.availableEquipment = availableEquipment;
     }
@@ -30,4 +31,19 @@ public class Worker extends Resource {
     }
 
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getFormattedEquipmentModelsString() {
+        StringBuilder ans = new StringBuilder();
+        for (Equipment equipment : availableEquipment) {
+            ans.append(equipment.getEquipmentModel()).append(" ");
+        }
+        return ans.toString().trim();
+    }
 }
