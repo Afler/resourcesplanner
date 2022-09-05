@@ -35,1496 +35,8 @@
     {
       "year": 2022,
       "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 0,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 1,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 2,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 3,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 4,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 5,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 6,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 7,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 8,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 9,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 10,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 11,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 12,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 13,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 14,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 15,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 16,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 17,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 18,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 19,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 20,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 21,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
-      "hour": 22,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 1,
+      "dayOfMonth": 4,
       "hour": 23,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "THURSDAY",
-      "dayOfYear": 244,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 0,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 1,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 2,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 3,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 4,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 5,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 6,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 7,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 8,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 9,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 10,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 11,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 12,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 13,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 14,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 15,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 16,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 17,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 18,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 19,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 20,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 21,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 22,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 2,
-      "hour": 23,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "FRIDAY",
-      "dayOfYear": 245,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 0,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 1,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 2,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 3,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 4,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 5,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 6,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 7,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 8,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 9,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 10,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 11,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 12,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 13,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 14,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 15,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 16,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 17,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 18,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 19,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 20,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 21,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 22,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 3,
-      "hour": 23,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SATURDAY",
-      "dayOfYear": 246,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 0,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 1,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 2,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 3,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 4,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 5,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 6,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 7,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 8,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 9,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 10,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 11,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 12,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 13,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 14,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 15,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 16,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 17,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 18,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 19,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 20,
-      "minute": 0,
-      "second": 0,
-      "nano": 0,
-      "dayOfWeek": "SUNDAY",
-      "dayOfYear": 247,
-      "month": "SEPTEMBER",
-      "chronology": {
-        "id": "ISO",
-        "calendarType": "iso8601"
-      }
-    },
-    {
-      "year": 2022,
-      "monthValue": 9,
-      "dayOfMonth": 4,
-      "hour": 21,
       "minute": 0,
       "second": 0,
       "nano": 0,
@@ -1556,12 +68,1500 @@
       "year": 2022,
       "monthValue": 9,
       "dayOfMonth": 4,
-      "hour": 23,
+      "hour": 21,
       "minute": 0,
       "second": 0,
       "nano": 0,
       "dayOfWeek": "SUNDAY",
       "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 20,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 19,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 18,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 17,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 16,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 15,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 14,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 13,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 12,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 11,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 10,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 9,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 8,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 7,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 6,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 5,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 4,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 3,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 2,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 1,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 4,
+      "hour": 0,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SUNDAY",
+      "dayOfYear": 247,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 23,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 22,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 21,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 20,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 19,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 18,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 17,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 16,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 15,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 14,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 13,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 12,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 11,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 10,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 9,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 8,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 7,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 6,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 5,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 4,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 3,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 2,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 1,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 3,
+      "hour": 0,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 246,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 23,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 22,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 21,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 20,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 19,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 18,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 17,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 16,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 15,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 14,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 13,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 12,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 11,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 10,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 9,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 8,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 7,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 6,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 5,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 4,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 3,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 2,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 1,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 2,
+      "hour": 0,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "FRIDAY",
+      "dayOfYear": 245,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 23,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 22,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 21,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 20,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 19,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 18,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 17,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 16,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 15,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 14,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 13,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 12,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 11,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 10,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 9,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 8,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 7,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 6,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 5,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 4,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 3,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 2,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 1,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
+      "month": "SEPTEMBER",
+      "chronology": {
+        "id": "ISO",
+        "calendarType": "iso8601"
+      }
+    },
+    {
+      "year": 2022,
+      "monthValue": 9,
+      "dayOfMonth": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0,
+      "nano": 0,
+      "dayOfWeek": "THURSDAY",
+      "dayOfYear": 244,
       "month": "SEPTEMBER",
       "chronology": {
         "id": "ISO",
@@ -1577,9 +1577,13 @@
         {
           "equipmentModel": "MODEL_1",
           "available": false
+        },
+        {
+          "equipmentModel": "MODEL_2",
+          "available": false
         }
       ],
-      "formattedEquipmentModelsString": "MODEL_1",
+      "formattedEquipmentModelsString": "MODEL_1 MODEL_2",
       "available": false
     },
     {
@@ -1589,9 +1593,13 @@
         {
           "equipmentModel": "MODEL_2",
           "available": false
+        },
+        {
+          "equipmentModel": "MODEL_3",
+          "available": false
         }
       ],
-      "formattedEquipmentModelsString": "MODEL_2",
+      "formattedEquipmentModelsString": "MODEL_2 MODEL_3",
       "available": false
     },
     {
@@ -1667,13 +1675,13 @@
       "chosenStartTime": {
         "year": 2022,
         "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 0,
+        "dayOfMonth": 4,
+        "hour": 23,
         "minute": 0,
         "second": 0,
         "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
+        "dayOfWeek": "SUNDAY",
+        "dayOfYear": 247,
         "month": "SEPTEMBER",
         "chronology": {
           "id": "ISO",
@@ -1683,13 +1691,13 @@
       "endTime": {
         "year": 2022,
         "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 1,
+        "dayOfMonth": 5,
+        "hour": 0,
         "minute": 0,
         "second": 0,
         "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
+        "dayOfWeek": "MONDAY",
+        "dayOfYear": 248,
         "month": "SEPTEMBER",
         "chronology": {
           "id": "ISO",
@@ -1719,17 +1727,32 @@
         }
       },
       "id": 1,
-      "chosenWorker": null,
+      "chosenWorker": {
+        "name": "Ford",
+        "workerProfession": "FIRST",
+        "availableEquipment": [
+          {
+            "equipmentModel": "MODEL_1",
+            "available": false
+          },
+          {
+            "equipmentModel": "MODEL_2",
+            "available": false
+          }
+        ],
+        "formattedEquipmentModelsString": "MODEL_1 MODEL_2",
+        "available": false
+      },
       "chosenStartTime": {
         "year": 2022,
         "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 0,
+        "dayOfMonth": 4,
+        "hour": 22,
         "minute": 0,
         "second": 0,
         "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
+        "dayOfWeek": "SUNDAY",
+        "dayOfYear": 247,
         "month": "SEPTEMBER",
         "chronology": {
           "id": "ISO",
@@ -1739,13 +1762,13 @@
       "endTime": {
         "year": 2022,
         "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 2,
+        "dayOfMonth": 5,
+        "hour": 0,
         "minute": 0,
         "second": 0,
         "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
+        "dayOfWeek": "MONDAY",
+        "dayOfYear": 248,
         "month": "SEPTEMBER",
         "chronology": {
           "id": "ISO",
@@ -1775,124 +1798,12 @@
         }
       },
       "id": 2,
-      "chosenWorker": null,
-      "chosenStartTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 0,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      },
-      "endTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 3,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      }
-    },
-    {
-      "requiredWorkerProfession": "FIRST",
-      "requiredEquipmentModel": "MODEL_2",
-      "duration": 4,
-      "profit": 40,
-      "maxEndTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 5,
-        "hour": 0,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "MONDAY",
-        "dayOfYear": 248,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      },
-      "id": 3,
-      "chosenWorker": null,
-      "chosenStartTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 0,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      },
-      "endTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 4,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      }
-    },
-    {
-      "requiredWorkerProfession": "THIRD",
-      "requiredEquipmentModel": "MODEL_3",
-      "duration": 5,
-      "profit": 50,
-      "maxEndTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 5,
-        "hour": 0,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "MONDAY",
-        "dayOfYear": 248,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      },
-      "id": 4,
       "chosenWorker": {
-        "name": "Travis",
-        "workerProfession": "THIRD",
+        "name": "Steve",
+        "workerProfession": "SECOND",
         "availableEquipment": [
           {
-            "equipmentModel": "MODEL_1",
+            "equipmentModel": "MODEL_2",
             "available": false
           },
           {
@@ -1900,19 +1811,19 @@
             "available": false
           }
         ],
-        "formattedEquipmentModelsString": "MODEL_1 MODEL_3",
+        "formattedEquipmentModelsString": "MODEL_2 MODEL_3",
         "available": false
       },
       "chosenStartTime": {
         "year": 2022,
         "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 1,
+        "dayOfMonth": 4,
+        "hour": 21,
         "minute": 0,
         "second": 0,
         "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
+        "dayOfWeek": "SUNDAY",
+        "dayOfYear": 247,
         "month": "SEPTEMBER",
         "chronology": {
           "id": "ISO",
@@ -1920,28 +1831,6 @@
         }
       },
       "endTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 6,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      }
-    },
-    {
-      "requiredWorkerProfession": "THIRD",
-      "requiredEquipmentModel": "MODEL_1",
-      "duration": 6,
-      "profit": 60,
-      "maxEndTime": {
         "year": 2022,
         "monthValue": 9,
         "dayOfMonth": 5,
@@ -1951,55 +1840,6 @@
         "nano": 0,
         "dayOfWeek": "MONDAY",
         "dayOfYear": 248,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      },
-      "id": 5,
-      "chosenWorker": {
-        "name": "Travis",
-        "workerProfession": "THIRD",
-        "availableEquipment": [
-          {
-            "equipmentModel": "MODEL_1",
-            "available": false
-          },
-          {
-            "equipmentModel": "MODEL_3",
-            "available": false
-          }
-        ],
-        "formattedEquipmentModelsString": "MODEL_1 MODEL_3",
-        "available": false
-      },
-      "chosenStartTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 6,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
-        "month": "SEPTEMBER",
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        }
-      },
-      "endTime": {
-        "year": 2022,
-        "monthValue": 9,
-        "dayOfMonth": 1,
-        "hour": 12,
-        "minute": 0,
-        "second": 0,
-        "nano": 0,
-        "dayOfWeek": "THURSDAY",
-        "dayOfYear": 244,
         "month": "SEPTEMBER",
         "chronology": {
           "id": "ISO",
@@ -2011,7 +1851,7 @@
   "score": {
     "initScore": 0,
     "hardScore": 0,
-    "mediumScore": -3,
+    "mediumScore": 0,
     "softScore": -3,
     "feasible": true,
     "solutionInitialized": true,
