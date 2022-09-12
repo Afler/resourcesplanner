@@ -21,11 +21,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        SolverFactory<JobScheduleSolution> solutionSolverFactory = SolverFactory.create(new SolverConfig()
-                .withSolutionClass(JobScheduleSolution.class)
-                .withEntityClasses(Operation.class)
-                .withConstraintProviderClass(MyConstraintProvider.class)
-                .withTerminationSpentLimit(Duration.ofSeconds(10)));
+
+        SolverFactory<JobScheduleSolution> solutionSolverFactory = SolverFactory.createFromXmlResource("mySolverConfig.xml");
         Solver<JobScheduleSolution> solver = solutionSolverFactory.buildSolver();
 
         String inputStrategy;
@@ -62,6 +59,11 @@ public class Main {
                 , scheduleSolutionFromJson.getEndTime());
         if (inputStrategy.equals("A")) Collections.reverse(possibleStartTimeRange);
         scheduleSolutionFromJson.setPossibleStartTimeRange(possibleStartTimeRange);
+        List<Operation> operations = scheduleSolutionFromJson.getOperations();
+        for (Operation operation : operations) {
+            operation.setMaxEndTime(scheduleSolutionFromJson.getEndTime());
+        }
+        scheduleSolutionFromJson.setOperations(operations);
 
         return scheduleSolutionFromJson;
     }

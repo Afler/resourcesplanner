@@ -1,6 +1,6 @@
 {
   "startTime": "2022-09-01T00:00:00",
-  "endTime": "2022-09-04T00:00:00",
+  "endTime": "2022-09-02T00:00:00",
   "workers": [
     {
       "name": "Ford",
@@ -64,28 +64,25 @@
   ],
   "operations": [
     {
-      "requiredWorkerProfession": "THIRD",
-      "requiredEquipmentModel": "MODEL_1",
-      "duration": 1,
-      "profit": 10,
-      "id": 0,
-      "maxEndTime": "2022-09-04T00:00:00"
-    },
-    {
-      "requiredWorkerProfession": "FIRST",
+      "requiredWorkerProfession": "SECOND",
       "requiredEquipmentModel": "MODEL_2",
-      "duration": 2,
+      "duration": 11,
       "profit": 20,
-      "id": 1,
-      "maxEndTime": "2022-09-04T00:00:00"
+      "id": 0
     },
     {
       "requiredWorkerProfession": "SECOND",
-      "requiredEquipmentModel": "MODEL_3",
-      "duration": 3,
-      "profit": 30,
-      "id": 2,
-      "maxEndTime": "2022-09-04T00:00:00"
+      "requiredEquipmentModel": "MODEL_2",
+      "duration": 11,
+      "profit": 20,
+      "id": 1
+    },
+    {
+      "requiredWorkerProfession": "SECOND",
+      "requiredEquipmentModel": "MODEL_2",
+      "duration": 23,
+      "profit": 50,
+      "id": 2
     }
   ]
 }

@@ -3,7 +3,7 @@
         xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
     <!-- Define the equipmentModel -->
     <solutionClass>solution.JobScheduleSolution</solutionClass>
-    <entityClass>equipmentModel.FollowingOperation</entityClass>
+    <entityClass>model.Operation</entityClass>
 
     <!-- Define the score function -->
     <scoreDirectorFactory>
@@ -13,8 +13,14 @@
     <!-- Configure the optimization algorithms (optional) -->
     <termination>
     </termination>
+
     <constructionHeuristic>
+        <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
     </constructionHeuristic>
+
     <localSearch>
+        <termination>
+            <unimprovedStepCountLimit>100</unimprovedStepCountLimit>
+        </termination>
     </localSearch>
 </solver>

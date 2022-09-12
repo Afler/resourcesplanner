@@ -18,7 +18,6 @@ public class MyConstraintProvider implements ConstraintProvider {
     @Override
     public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {
         return new Constraint[]{
-                // Hard constraints
                 sameWorker(constraintFactory),
                 sameEquipment(constraintFactory),
                 equipmentMismatch(constraintFactory),
@@ -40,8 +39,10 @@ public class MyConstraintProvider implements ConstraintProvider {
         return constraintFactory
                 .forEach(Operation.class)
                 .join(Operation.class,
-                        Joiners.lessThan(Operation::getProfit))
-                .penalize("Cheaper solution", HardMediumSoftScore.ONE_SOFT);
+                        Joiners.lessThan(Operation::getProfit),
+                        Joiners.lessThan(Operation::getId))
+                .penalize("Cheaper solution",
+                        HardMediumSoftScore.ONE_SOFT);
     }
 
     private Constraint timeConflict(ConstraintFactory constraintFactory) {
