@@ -5,14 +5,18 @@ import java.util.List;
 public class Worker extends Resource {
 
     private String name;
-    private WorkerProfession workerProfession;
+    private String workerProfession;
     private List<Equipment> availableEquipment;
 
     public List<Equipment> getAvailableEquipment() {
         return availableEquipment;
     }
 
-    public Worker(String name, WorkerProfession workerProfession, List<Equipment> availableEquipment) {
+    public Worker() {
+
+    }
+
+    public Worker(String name, String workerProfession, List<Equipment> availableEquipment) {
         this.name = name;
         this.workerProfession = workerProfession;
         this.availableEquipment = availableEquipment;
@@ -22,11 +26,11 @@ public class Worker extends Resource {
         this.availableEquipment = availableEquipment;
     }
 
-    public WorkerProfession getWorkerProfession() {
+    public String getWorkerProfession() {
         return workerProfession;
     }
 
-    public void setWorkerProfession(WorkerProfession workerProfession) {
+    public void setWorkerProfession(String workerProfession) {
         this.workerProfession = workerProfession;
     }
 

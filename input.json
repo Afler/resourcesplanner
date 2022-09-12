@@ -1,0 +1,91 @@
+{
+  "startTime": "2022-09-01T00:00:00",
+  "endTime": "2022-09-04T00:00:00",
+  "workers": [
+    {
+      "name": "Ford",
+      "workerProfession": "FIRST",
+      "availableEquipment": [
+        {
+          "equipmentModel": "MODEL_1",
+          "available": false
+        },
+        {
+          "equipmentModel": "MODEL_2",
+          "available": false
+        }
+      ],
+      "available": false
+    },
+    {
+      "name": "Steve",
+      "workerProfession": "SECOND",
+      "availableEquipment": [
+        {
+          "equipmentModel": "MODEL_2",
+          "available": false
+        },
+        {
+          "equipmentModel": "MODEL_3",
+          "available": false
+        }
+      ],
+      "available": false
+    },
+    {
+      "name": "Travis",
+      "workerProfession": "THIRD",
+      "availableEquipment": [
+        {
+          "equipmentModel": "MODEL_1",
+          "available": false
+        },
+        {
+          "equipmentModel": "MODEL_3",
+          "available": false
+        }
+      ],
+      "available": false
+    }
+  ],
+  "equipment": [
+    {
+      "equipmentModel": "MODEL_1",
+      "available": false
+    },
+    {
+      "equipmentModel": "MODEL_2",
+      "available": false
+    },
+    {
+      "equipmentModel": "MODEL_3",
+      "available": false
+    }
+  ],
+  "operations": [
+    {
+      "requiredWorkerProfession": "THIRD",
+      "requiredEquipmentModel": "MODEL_1",
+      "duration": 1,
+      "profit": 10,
+      "id": 0,
+      "maxEndTime": "2022-09-04T00:00:00"
+    },
+    {
+      "requiredWorkerProfession": "FIRST",
+      "requiredEquipmentModel": "MODEL_2",
+      "duration": 2,
+      "profit": 20,
+      "id": 1,
+      "maxEndTime": "2022-09-04T00:00:00"
+    },
+    {
+      "requiredWorkerProfession": "SECOND",
+      "requiredEquipmentModel": "MODEL_3",
+      "duration": 3,
+      "profit": 30,
+      "id": 2,
+      "maxEndTime": "2022-09-04T00:00:00"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import model.*;
 import org.optaplanner.core.api.solver.Solver;
 import org.optaplanner.core.api.solver.SolverFactory;
@@ -18,12 +20,12 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         SolverFactory<JobScheduleSolution> solutionSolverFactory = SolverFactory.create(new SolverConfig()
                 .withSolutionClass(JobScheduleSolution.class)
                 .withEntityClasses(Operation.class)
                 .withConstraintProviderClass(MyConstraintProvider.class)
-                .withTerminationSpentLimit(Duration.ofSeconds(30)));
+                .withTerminationSpentLimit(Duration.ofSeconds(10)));
         Solver<JobScheduleSolution> solver = solutionSolverFactory.buildSolver();
 
         String inputStrategy;
@@ -45,37 +47,23 @@ public class Main {
     }
 
     private static void writeAnswerToFile(JobScheduleSolution solution) throws IOException {
-        File answerFile = new File("src/main/resources/ans.json");
-        ObjectMapper objectMapper = new ObjectMapper();
+        File answerFile = new File("output.json");
+        ObjectMapper objectMapper = new ObjectMapper().registerModule(new JavaTimeModule());
+        objectMapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
         objectMapper.writeValue(answerFile, solution);
     }
 
-    private static JobScheduleSolution uploadDemoData(String inputStrategy) {
-        List<Equipment> equipment = new ArrayList<>();
-        equipment.add(new Equipment(EquipmentModel.MODEL_1));
-        equipment.add(new Equipment(EquipmentModel.MODEL_2));
-        equipment.add(new Equipment(EquipmentModel.MODEL_3));
+    private static JobScheduleSolution uploadDemoData(String inputStrategy) throws IOException {
+        JobScheduleSolution scheduleSolutionFromJson;
+        scheduleSolutionFromJson = new ObjectMapper().registerModule(new JavaTimeModule())
+                .readValue(new File("input.json"), JobScheduleSolution.class);
 
-        List<Worker> workers = new ArrayList<>();
-        workers.add(new Worker("Ford", WorkerProfession.FIRST, new ArrayList<>(List.of(equipment.get(0), equipment.get(1)))));
-        workers.add(new Worker("Steve", WorkerProfession.SECOND, new ArrayList<>(List.of(equipment.get(1), equipment.get(2)))));
-        workers.add(new Worker("Travis", WorkerProfession.THIRD, new ArrayList<>(List.of(equipment.get(0), equipment.get(2)))));
-
-        LocalDateTime startTime = LocalDate.of(2022, Month.SEPTEMBER, 1).atStartOfDay();
-        LocalDateTime endTime = LocalDate.of(2022, Month.SEPTEMBER, 5).atStartOfDay();
-        List<LocalDateTime> possibleStartTimeRange = getPossibleStartTimeRange(startTime, endTime);
+        List<LocalDateTime> possibleStartTimeRange = getPossibleStartTimeRange(scheduleSolutionFromJson.getStartTime()
+                , scheduleSolutionFromJson.getEndTime());
         if (inputStrategy.equals("A")) Collections.reverse(possibleStartTimeRange);
+        scheduleSolutionFromJson.setPossibleStartTimeRange(possibleStartTimeRange);
 
-        long id = 0;
-        List<Operation> operations = new ArrayList<>();
-        operations.add(new Operation(id++, WorkerProfession.THIRD, equipment.get(0).getEquipmentModel(), 1, 10, endTime));
-        operations.add(new Operation(id++, WorkerProfession.FIRST, equipment.get(1).getEquipmentModel(), 2, 20, endTime));
-        operations.add(new Operation(id++, WorkerProfession.SECOND, equipment.get(2).getEquipmentModel(), 3, 30, endTime));
-//        operations.add(new Operation(id++, WorkerProfession.FIRST, equipment.get(1).getEquipmentModel(), 4, 40, endTime));
-//        operations.add(new Operation(id++, WorkerProfession.THIRD, equipment.get(2).getEquipmentModel(), 5, 50, endTime));
-//        operations.add(new Operation(id++, WorkerProfession.THIRD, equipment.get(0).getEquipmentModel(), 6, 60, endTime));
-
-        return new JobScheduleSolution(startTime, endTime, possibleStartTimeRange, workers, equipment, operations);
+        return scheduleSolutionFromJson;
     }
 
     private static List<LocalDateTime> getPossibleStartTimeRange(LocalDateTime startTime, LocalDateTime endTime) {

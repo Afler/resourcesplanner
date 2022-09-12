@@ -12,8 +12,8 @@ import java.time.LocalDateTime;
 @PlanningEntity
 public class Operation {
 
-    private WorkerProfession requiredWorkerProfession;
-    private EquipmentModel requiredEquipmentModel;
+    private String requiredWorkerProfession;
+    private String requiredEquipmentModel;
     private long duration;
     private int profit;
     private LocalDateTime maxEndTime;
@@ -35,7 +35,7 @@ public class Operation {
 
     }
 
-    public Operation(long id, WorkerProfession requiredWorkerProfession, EquipmentModel requiredEquipment, long duration, int profit, LocalDateTime maxEndTime) {
+    public Operation(long id, String requiredWorkerProfession, String requiredEquipment, long duration, int profit, LocalDateTime maxEndTime) {
         this.id = id;
         this.requiredWorkerProfession = requiredWorkerProfession;
         this.requiredEquipmentModel = requiredEquipment;
@@ -44,11 +44,11 @@ public class Operation {
         this.maxEndTime = maxEndTime;
     }
 
-    public WorkerProfession getRequiredWorkerProfession() {
+    public String getRequiredWorkerProfession() {
         return requiredWorkerProfession;
     }
 
-    public void setRequiredWorkerProfession(WorkerProfession requiredWorkerProfession) {
+    public void setRequiredWorkerProfession(String requiredWorkerProfession) {
         this.requiredWorkerProfession = requiredWorkerProfession;
     }
 
@@ -108,11 +108,11 @@ public class Operation {
         this.maxEndTime = maxEndTime;
     }
 
-    public EquipmentModel getRequiredEquipmentModel() {
+    public String getRequiredEquipmentModel() {
         return requiredEquipmentModel;
     }
 
-    public void setRequiredEquipmentModel(EquipmentModel requiredEquipmentModel) {
+    public void setRequiredEquipmentModel(String requiredEquipmentModel) {
         this.requiredEquipmentModel = requiredEquipmentModel;
     }
 

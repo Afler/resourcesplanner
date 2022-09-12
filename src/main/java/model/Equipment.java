@@ -2,17 +2,21 @@ package model;
 
 public class Equipment extends Resource {
 
-    private EquipmentModel equipmentModel;
+    private String equipmentModel;
 
-    public Equipment(EquipmentModel equipmentModel) {
+    public Equipment() {
+
+    }
+
+    public Equipment(String equipmentModel) {
         this.equipmentModel = equipmentModel;
     }
 
-    public EquipmentModel getEquipmentModel() {
+    public String getEquipmentModel() {
         return equipmentModel;
     }
 
-    public void setEquipmentModel(EquipmentModel equipmentModel) {
+    public void setEquipmentModel(String equipmentModel) {
         this.equipmentModel = equipmentModel;
     }
 }

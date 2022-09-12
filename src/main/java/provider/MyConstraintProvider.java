@@ -54,8 +54,8 @@ public class MyConstraintProvider implements ConstraintProvider {
     private Constraint professionMismatch(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEach(Operation.class)
-                .filter(operation -> operation.getRequiredWorkerProfession()
-                        != operation.getChosenWorker().getWorkerProfession())
+                .filter(operation -> !operation.getRequiredWorkerProfession().equals(
+                        operation.getChosenWorker().getWorkerProfession()))
                 .penalize("Worker profession mismatch", HardMediumSoftScore.ONE_HARD);
     }
 
