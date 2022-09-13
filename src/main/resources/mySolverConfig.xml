@@ -15,7 +15,7 @@
     </termination>
 
     <constructionHeuristic>
-        <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+        <constructionHeuristicType>ALLOCATE_FROM_POOL</constructionHeuristicType>
     </constructionHeuristic>
 
     <localSearch>

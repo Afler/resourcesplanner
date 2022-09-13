@@ -38,11 +38,7 @@ public class MyConstraintProvider implements ConstraintProvider {
     private Constraint maxProfit(ConstraintFactory constraintFactory) {
         return constraintFactory
                 .forEach(Operation.class)
-                .join(Operation.class,
-                        Joiners.lessThan(Operation::getProfit),
-                        Joiners.lessThan(Operation::getId))
-                .penalize("Cheaper solution",
-                        HardMediumSoftScore.ONE_SOFT);
+                .reward("Profit", HardMediumSoftScore.ONE_SOFT, Operation::getProfit);
     }
 
     private Constraint timeConflict(ConstraintFactory constraintFactory) {
